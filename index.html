@@ -1,17 +1,47 @@
 <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="author" content="Abhinand PS">
-      <link rel="shortcut icon" href="images/favicon.png">
-      <link rel="stylesheet" href="style.css">
-      
-      <title>Food Stall</title>
-  </head>
-  <body>
-      <!-- Your code goes here -->
-      <script src="script.js"></script>
-  </body>
-  </html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Abhinand PS">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Food Stall</title>
+</head>
+
+<body>
+    <!-- Your code goes here -->
+    <div class="container">
+        <!-- left side -->
+        <div class="left-section">
+            <div class="logo">
+                <img src="./assets/icons/Layer 1.svg" alt="ionaught-logo">
+            </div>
+            <div class="contents">
+                <h1>My Foods</h1>
+                <nav>
+                    <button id="btn1" class="active">Pizza</button>
+                    <button id="btn2">Burger</button>
+                    <button id="btn3">Tacos</button>
+                </nav>
+            </div>
+        </div>
+
+        <!-- right side -->
+        <div class="right-section">
+            <div class="wrapper">
+                <div class="top">
+                    <h2 id="heading">Pizza</h2>
+                    <img id="food" src="./assets/images/pizza.png" alt="">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
